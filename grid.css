@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header starts */
+
+.container-fluid {
+    width: 1500px;
+    margin: 20px auto;
+}
+.row {
+    width: 100%;
+    display: flex;
+}
+[class*="col-6"] {
+    width: 50%;
+}
+.col-6-end {
+    display: flex;
+    justify-content: flex-end;
+}
+.container {
+    width: 1200px;
+    margin: 0px auto;
+}
+.col-12 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.col-4 {
+    width: 33.3%
+}
+.col-8 {
+    width: 66.6%;
+}
